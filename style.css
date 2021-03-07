@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Raleway:wght@500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(217, 28%, 15%);
+}
+/*head*/
+.head{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    padding: 6vmin;
+    font-family: 'Raleway', sans-serif !important;
+}
+.brand{
+    display: inline-flex;
+}
+.brand h1{
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    padding-left: 1vmin;
+    margin-top: -1vmin;
+}
+.img{
+    padding: 2vmin 3vmin;
+    margin-top: -2vmin;
+    height: 5vmin;
+}
+.menu-nav ul li{
+    display: inline-flex;
+    padding: 0 4vmin;
+}
+li.active{
+    font-weight: bold;
+}
+/*mid-info*/
+.mid-info{
+    text-align: center;
+    margin-bottom: 1vmin;
+    margin-top: -4vmin;
+    font-family: 'Open Sans', sans-serif;
+}
+.mid-info img{
+    width: 35%;
+}
+.mid-info h2{
+    letter-spacing: 2px;
+    margin-bottom: 2vmin;
+    font-weight: bold;
+    padding: 0 28%;
+}
+.mid-info p{
+    margin-bottom: 2vmin;
+    padding: 0 31%;
+
+}
+.btn{
+    color: white;
+    background: rgb(11, 114, 248);
+    padding: 1.5vmin 9vmin;
+    border-radius: 4vmin;
+    border: 1px solid rgb(7, 61, 236);
+}
+/*bgimg*/
+.bgimg{
+    margin-top: -13%;
+    z-index: -1;
+    position: relative;
+    width: 100%;
+}
+/*main*/
+.main{
+    background: hsl(218, 28%, 13%);
+}
+/*services*/
+.services{
+    display: flex;
+    margin: -11vmin 0 2vmin 0;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 2vmin 8% 2vmin 8%;
+    font-family: 'Open Sans', sans-serif;
+}
+.img-responsive{
+    width: 70px;
+    background: hsl(217, 28%, 15%);
+    margin-bottom: 2.5vmin;
+}
+.col{
+    width: 35%;
+    text-align: center;
+    margin: 4vmin 0;
+}
+.col h3{
+    margin-bottom: 1.5vmin;
+}
+/*extras section*/
+.extras{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2vmin 0;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0 10%;
+    align-items: center;
+}
+.imgg-responsive{
+    width: 40%;
+    margin-right: 3vmin;
+    margin-left: 5%;
+}
+.img-btn{
+    width: 20px;
+}
+.block{
+    margin: 9vmin 0 0 0;
+}
+.block h2{
+    margin-bottom: 2vmin;
+    padding-right: 60%;
+}
+.block p{
+    margin-bottom: 1vmin;
+    padding-right: 30%;
+}
+.link-btn{
+    color: rgb(118, 207, 241);
+    text-decoration: underline;
+    margin-right: 9vmin;
+}
+
+/*cards*/
+.cards{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 16vmin;
+    margin-top: 8vmin;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0 5%;
+}
+.middle-card{
+    margin: 0 4vmin;
+}
+.cols{
+    padding: 3vmin;
+    background:hsl(219, 30%, 18%);
+    border: 1px solid hsl(219, 30%, 18%);
+    border-radius: 1vmin;
+}
+.cols p{
+    margin-bottom: 2vmin;
+}
+.quotes{
+    height: 30px;
+    margin-right: -4vmin;
+    margin-top: -3vmin;
+}
+.card-title{
+    display: flex;
+    justify-content: flex-start;
+}
+.card-title img{
+    width: 60px;
+    border-radius: 50%;
+    margin-right: 2vmin;
+}
+.card-content h4{
+    margin-bottom: 2vmin;
+}
+
+/*contacts*/
+.contacts{
+    text-align: center;
+    margin: 4vmin 20%;
+    background: hsl(217, 28%, 15%);
+    border: 1px solid hsl(217, 28%, 15%);
+    border-radius: 1vmin;
+    position: relative;
+    z-index: 1;
+    font-family: 'Open Sans', sans-serif;
+}
+.contacts h2{
+    margin-bottom: 4vmin;
+    margin-top: 4vmin;
+}
+.contacts p{
+    margin-bottom: 3vmin;
+}
+.contacts form{
+    margin-bottom: 4vmin;
+}
+.btn-btn{
+    padding: 1vmin 3vmin;
+    color: white;
+    border-radius: 2vmin;
+    background: rgb(11, 114, 248);
+    border: 1px solid hsl(217, 28%, 15%);
+}
+input[type=text]{
+    width: 50%;
+    padding: 1vmin 0;
+    border-radius: 2vmin;
+    border: 1px solid hsl(217, 28%, 15%);
+}
+
+/*footer*/
+.footer{
+    display: flex;
+    flex-direction: column;
+    padding: 25vmin 9% 4vmin 9%;
+    margin-top: -19vmin;
+    background: hsl(216, 53%, 9%);
+    font-family: 'Open Sans', sans-serif;
+}
+.brand{
+    padding-left: 10vmin;
+}
+.foot{
+    margin-bottom: 5vmin;
+}
+.footer-contents{
+    display: flex;
+    justify-content: space-evenly;
+}
+.role ul li{
+    list-style: none;
+}
+.fa{
+    border: 1px solid white;
+    padding: 1vmin;
+    border-radius: 50%;
+    margin: 0 1vmin;
+    color: white;
+}
+.location{
+    display: flex;
+}
+/*lastline*/
+.lastline{
+    text-align: center;
+    padding: 4vmin 0;
+    background: hsl(216, 53%, 9%);
+    font-family: 'Open Sans', sans-serif;
+}
+.lastline h5 a:visited{
+    color:skyblue;
+}
+
+/*mobile designs*/
+@media screen and (max-width:760px){
+    
+    body{
+        padding-right: 0%!important;
+    }
+    .head{
+        display: flex;
+    }
+    .img{
+        width: 100px;
+        margin-left: -12vmin;
+        height: 40px;
+    }
+    .menu-nav ul{
+        display: flex;
+        margin-left: -7vmin;
+    }
+    .menu-nav ul li{
+        display: inline-flex;
+        padding: 0 -6vmin!important;
+    }
+    .mid-info{
+        text-align: center;
+        padding: 0 2vmin;
+        padding-right:4% !important ;
+
+    }
+    .mid-info img{
+        width: 75%;
+    }
+    .mid-info h2{
+        padding: 0 4%;
+        font-size: 19px;
+        margin-bottom: 2vmin;
+    }
+    .mid-info p{
+        padding: 0 2%;
+        font-size: 16px;
+    }
+    .btn{
+        width: 60%;
+        padding: 4vmin 0;
+        margin: 2vmin 0;
+        border-radius: 6vmin;
+    }
+    .services{
+        display: flex;
+        flex-direction: column;
+    }
+    .col{
+        width: 100%;
+    }
+    .extras{
+        display: flex;
+        flex-direction: column;
+    }
+    .imgg-responsive{
+        width: 90%;
+        margin: 2vmin 0;
+    }
+    .block h2{
+        width: 100%;
+        margin-bottom: 4vmin;
+    }
+    .block p{
+        width: 100%;
+        margin-bottom: 10vmin;
+    }
+    .cards{
+        margin: 9vmin 0;
+        display: flex;
+        flex-direction: column;
+    }
+    .quotes{
+        width: 20px;
+    }
+    .middle-card{
+       margin: 8vmin 0;
+    }
+    .contacts{
+        width: 90%;
+        margin-left: 3%;
+        margin-bottom: -6vmin;
+    }
+    input[type=text],.btn-btn{
+        width: 80%;
+        padding: 3vmin 0;
+        border-radius: 8vmin;
+    }
+    .btn-btn{
+        margin-top: 2vmin;
+    }
+    .foot{
+        margin: 7vmin 0;
+    }
+    .footer-contents{
+        display: flex;
+        flex-direction: column;
+    }
+    .role{
+        margin: 5vmin 0;
+    }
+    .social-media{
+        text-align: center;
+    }
+}
