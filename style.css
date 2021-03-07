@@ -327,6 +327,7 @@ input[type=text]{
     }
     .card-title img{
        width:30px;
+       height:30px;
      }
     .quotes{
         width: 20px;
