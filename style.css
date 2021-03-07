@@ -325,6 +325,9 @@ input[type=text]{
         display: flex;
         flex-direction: column;
     }
+    .card-title img{
+       width:30px;
+     }
     .quotes{
         width: 20px;
     }
